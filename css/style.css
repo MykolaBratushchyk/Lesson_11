@@ -1,0 +1,377 @@
+.wrapper {
+    position: relative;
+    /* overflow: hidden; */
+    min-height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {}
+
+.body {
+    font-family: Lato;
+
+
+}
+
+.homework {}
+
+.homework__container {
+    background-color: #e0e0e0;
+    padding: 25px;
+}
+
+.homework__title {
+    font-size: 46px;
+    font-weight: 900;
+    color: #666666;
+}
+
+.homework__title h1 {
+    margin-top: 50px;
+}
+
+.homework__space {}
+
+.homework__subtitle {
+    font-size: 32px;
+    font-weight: 700;
+    color: #7a7a7a;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.homework__position {
+    border: 2px solid #666666;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+
+
+.position-relative {
+    overflow: hidden;
+}
+
+.position-relative__block {
+    min-height: 80px;
+    padding: 10px;
+    text-align: center;
+    color: #eeeeee;
+    font-size: 22px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+
+.position-relative__block_1 {
+    background-color: #491772;
+    position: relative;
+    z-index: 3;
+}
+
+.position-relative__block_2 {
+    background-color: #e68e13;
+    position: relative;
+    top: -20px;
+    left: 50px;
+    z-index: 2;
+}
+
+.position-relative__block_3 {
+    background-color: #216a21;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+.position-absolute {
+    position: relative;
+    overflow: hidden;
+}
+
+.position-absolute__block {
+    min-height: 80px;
+    padding: 10px;
+    text-align: center;
+    color: #eeeeee;
+    font-size: 22px;
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+.position-absolute__block_1 {
+    background-color: #491772;
+    position: relative;
+    z-index: 1;
+}
+
+.position-absolute__block_2 {
+    background-color: #e68e13;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    z-index: 2;
+}
+
+.position-absolute__block_3 {
+    background-color: #216a21;
+    position: relative;
+    z-index: 3;
+}
+
+
+
+.position-sticky {}
+
+.position-sticky__block {
+    min-height: 40px;
+    padding: 10px;
+    text-align: center;
+    color: #eeeeee;
+    font-size: 22px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.position-sticky__block_1 {
+    background-color: #491772;
+    position: sticky;
+    top: 500px;
+    z-index: 9;
+}
+
+.position-sticky__block_2 {
+    background-color: #e68e13;
+
+}
+
+.position-sticky__block_3 {
+    background-color: #216a21;
+}
+
+
+
+.position-fixed {}
+
+.position-fixed__block {
+    min-height: 40px;
+    padding: 10px;
+    text-align: center;
+    color: #eeeeee;
+    font-size: 22px;
+    margin: 0 auto;
+}
+
+.position-fixed__block_1 {
+    background-color: #491772;
+    max-width: 500px;
+    position: fixed;
+    top: 300px;
+    left: 0;
+    z-index: 98;
+    display: inline-block;
+}
+
+.position-fixed__block_2 {
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    display: inline-block;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.position-fixed__block_3 {
+    background-color: #216a21;
+    max-width: 500px;
+    position: fixed;
+    top: 500px;
+    right: 0;
+    z-index: 98;
+    display: inline-block;
+}
+
+
+.picture {}
+
+.picture__contaiiner {
+    min-height: 700px;
+    background: url(../img/moscow.jpg) no-repeat center / cover;
+    position: relative;
+}
+
+.picture__moscow {}
+
+.picture__jet-photo-1 {
+
+    max-width: 300px;
+    position: absolute;
+    top: 50px;
+    right: 200px;
+}
+
+.picture__jet-photo-1 img {
+    width: 100%;
+}
+
+.picture__jet-photo-2 {
+
+    max-width: 200px;
+    position: absolute;
+    top: 50px;
+    left: 60px;
+}
+
+.picture__jet-photo-2 img {
+    width: 100%;
+}
+
+.picture__tank-photo {
+
+    max-width: 400px;
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+}
+
+.picture__tank-photo img {
+    width: 100%;
+}
+
+.picture__flag {
+
+    max-width: 100px;
+    position: absolute;
+    bottom: 200px;
+    right: 120px;
+}
+
+.picture__flag img {
+    width: 100%;
+}
+
+.picture__tank {
+    position: absolute;
+    bottom: 40px;
+    left: 100px;
+    width: 350px;
+    height: 250px;
+    /* background-color: #fff; */
+}
+
+.tank {}
+
+.tank__body {
+    width: 340px;
+    height: 70px;
+    background-color: #1e4b2c;
+    border-radius: 8% 92% 0% 100% / 100% 24% 76% 0%;
+    position: absolute;
+    left: 0;
+    top: 92px;
+}
+
+.tank__header {
+    width: 200px;
+    height: 80px;
+    background-color: #1e4b2c;
+    border-radius: 87% 13% 100% 0% / 34% 100% 0% 66%;
+    position: absolute;
+    left: 40px;
+    top: 10px;
+}
+
+.tank__muzzle {
+    width: 150px;
+    height: 30px;
+    background-color: #1e4b2c;
+    position: absolute;
+    left: 220px;
+    top: 40px;
+}
+
+.tank__caterpillar {
+    width: 340px;
+    height: 83px;
+    background-color: #1e4b2c;
+    border-radius: 5% 95% 46% 54% / 32% 8% 92% 68%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.tank__wheel-1 {
+    width: 66px;
+    height: 66px;
+    background-color: #676767;
+    border-radius: 50%;
+    position: absolute;
+    left: 90px;
+    bottom: 11px;
+}
+
+.tank__wheel-2 {
+    width: 50px;
+    height: 50px;
+    background-color: #676767;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    bottom: 27px;
+}
+
+.tank__wheel-3 {
+    width: 66px;
+    height: 66px;
+    background-color: #676767;
+    border-radius: 50%;
+    position: absolute;
+    left: 170px;
+    bottom: 10px;
+}
+
+.tank__wheel-4 {
+    width: 50px;
+    height: 50px;
+    background-color: #676767;
+    border-radius: 50%;
+    position: absolute;
+    left: 260px;
+    bottom: 27px;
+}
+
+
+.tank__flag {
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    top: 25px;
+    left: 70px;
+}
+
+.tank__blue {
+    width: 50px;
+    height: 15px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #03308f;
+}
+
+.tank__yellow {
+    width: 50px;
+    height: 15px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: #e2d305;
+}
+
+
+.footer {}
